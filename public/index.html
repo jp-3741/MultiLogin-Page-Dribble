@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sign up</title>
+</head>
+<body>
+<body class="flex flex-col items-center justify-center h-screen bg-teal-50">
+    <div class="w-1/2  p-6 bg-emerald-50 rounded-md shadow-md flex items-center space-x-4">
+        <img src="signup.jpg" alt="" class="w-1/2 h-auto hidden md:block">
+
+        <div class="absolute top-0 right-0 py-2 px-2 ... text-gray-600 text-xs sm:text-xs ">Already a member? <a href="create avatar.html" class ="text-blue-500" > Sign in</a></div>
+
+        <div class="flex flex-col space-y-4 ">
+            <h2 class="text-3xl font-bold absolute top-20 sm:text-2xl ">Sign up to Dribbble</h2> 
+            <div class="flex mb-4">
+              <div class="w-1/2 mr-2">
+                <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                <input type="text" id="name" name="name" value="" placeholder="Name" class="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline">
+              </div>
+              <div class=w-1/2>
+                <label for="username" class="block text-teal-950 font-bold mb-2">Username</label>
+                <input type="text" id="username" name="username" value="" placeholder="Username" class="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline">
+              </div>
+            </div>
+
+            <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" value="" placeholder="Email" class="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline">  
+            
+            <label for="password" class="block text-gray-700 font-bold mb-2">Password</label>
+            <input type="password" id="password" name="password" placeholder="6+ characters" class="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline">
+             
+            <div class="flex items-center">
+              <input type="checkbox" id="terms" name="terms" class="h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300 rounded scale-150">
+              <label for="terms" class="ml-2 text-xs text-gray-700">
+               Creating an account means you're okay with our <a href="#" class ="text-blue-500 ">Terms of Service, Privacy Policy</a> and our default <a href="#" class ="text-blue-500 "> Notification Settings</a>
+              </label>
+            </div>
+            <button type="submit" class="px-2 py-1 bg-emerald-400	 text-white rounded focus: outline-none  " ><a href="create avatar.html">Create Account</a></button>
+
+            <p class="text-gray-600 text-xs">This site is protected by reCAPTCHA and the <a href="#" class ="text-blue-500 "> Google Privacy Policy</a> and <a href="#" class ="text-blue-500 "> Terms of Service</a> apply.</p>
+        </div>
+    </div>
+</body>
+</html>
+    
+</body>
+</html>
